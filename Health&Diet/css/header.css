@@ -1,0 +1,44 @@
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height:96px;
+    z-index: 100;
+    border-bottom-color: rgb(218, 216, 216);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+   
+
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+}
+
+.left-logo{
+    width: 140px;
+    height: 94px;
+    border-radius: 10px;
+}
+
+.rigt-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.right-icon{
+    width: 24px;
+    margin-right: 60px;
+}
+

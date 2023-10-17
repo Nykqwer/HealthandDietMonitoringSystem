@@ -1,0 +1,32 @@
+.sidebar{
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    top: 0px;
+    left: 0;
+    width: 90px;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+
+.sidebar-link{
+    margin-bottom: 26px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.track, .calories{
+    width: 32px;
+}
+.calories{
+    margin-right: 4px;
+}
